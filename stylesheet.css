@@ -1,1 +1,6 @@
-
+.header {
+ font-size: 40px;
+ padding: 20px 40px;
+ background-color:#DCDCDC;
+ height: 120px;
+}
