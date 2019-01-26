@@ -5,6 +5,10 @@
  position: fixed;
  wideth: 100%;
 }
+.site-logo img{
+ height: 20px;
+ width: auto;
+}
 .main {
  padding:100px 80px;
 }
