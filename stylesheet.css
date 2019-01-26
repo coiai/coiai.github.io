@@ -1,4 +1,10 @@
-
+.header{
+ background: #fff;
+ padding: 60px 20px;
+ justify-content: space-between;
+ position: fixed;
+ wideth: 100%;
+}
 .main {
  padding:100px 80px;
 }
