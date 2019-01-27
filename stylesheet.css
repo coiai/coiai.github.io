@@ -9,6 +9,10 @@
  height: 20px;
  width: auto;
 }
+.home-img{
+ margin:0 auto;
+}
+ 
 .main {
  padding:100px 80px;
 }
