@@ -12,7 +12,7 @@
 .home-img{
  margin:0 auto;
  width: 300px;
- display: block:
+ display: inline-block:
 }
 .contents{
  /*this background is prepared for a test*/
