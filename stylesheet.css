@@ -17,12 +17,12 @@ h1{
  text-align:center;
 }
 .contents{
- /*this background is prepared for a test*/
- background: #ffff00;
+ /*this background is prepared for a test
+ background: #ffff00;*/
  line-height: 1.6;
  margin: 0 auto;
  padding-top:100px;
- width: 800px;
+ width: 600px;
 }
  
  
