@@ -3,6 +3,7 @@
  padding: 40px 20px;
  justify-content: space-between;
  position: fixed;
+ top:0;
  width: 100%;
 }
 .site-logo img{
@@ -10,6 +11,7 @@
  width: auto;
 }
 .home-img img{
+ padding-top:100px;
  width: 100vw;
  display:block;
 }
