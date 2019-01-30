@@ -10,8 +10,7 @@
  width: auto;
 }
 .home-img{
- margin: 0 auto;
- width: 300px;
+ width: 100vw;
  display:block:
 }
 .contents{
