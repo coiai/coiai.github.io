@@ -10,9 +10,9 @@
  width: auto;
 }
 .home-img{
- margin:0 auto;
+ margin: 0 auto;
  width: 300px;
- display: inline-block:
+ display:block:
 }
 .contents{
  /*this background is prepared for a test*/
