@@ -13,6 +13,9 @@
  width: 100vw;
  display:block;
 }
+h1{
+ text-align:center;
+}
 .contents{
  /*this background is prepared for a test*/
  background: #ffff00;
