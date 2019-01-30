@@ -10,12 +10,11 @@
  width: auto;
 }
 .home-img img{
- margin:100px 0;
  width: 100vw;
  display:block;
 }
 body{
- color:#1719b2;
+ color:#020456;
 }
 h1{
  text-align:center;
@@ -30,7 +29,7 @@ h1{
  width: 600px;
 }
 footer{
- background-color:#1719b2;
+ background-color:#020456;
  padding:80px 0;
 }
  
