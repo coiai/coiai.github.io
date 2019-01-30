@@ -33,5 +33,7 @@ h1{
 footer{
  background-color:#020456;
  padding:80px 0;
+ postion:absolute;
+ bottom:0;
 }
  
