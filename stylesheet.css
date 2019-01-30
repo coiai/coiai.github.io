@@ -10,6 +10,7 @@
  width: auto;
 }
 .home-img img{
+ margin:100px 0;
  width: 100vw;
  display:block;
 }
@@ -21,8 +22,9 @@ h1{
  background: #ffff00;*/
  line-height: 1.6;
  margin: 0 auto;
- margin-bottom:40px;
- padding-top:100px;
+ margin-bottom:100px;
+/*
+ padding-top:100p;*/
  width: 600px;
 }
 footer{
