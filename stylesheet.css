@@ -32,6 +32,8 @@ h1{
 }
 .footer-item{
  color:#fff;
+ margin-right:20px;
+ margin-left:auto;
 }
 footer{
  background-color:#020456;
