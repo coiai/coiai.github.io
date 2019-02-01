@@ -30,6 +30,9 @@ h1{
  padding-top:100p;*/
  width: 600px;
 }
+.footer-item{
+ color:#fff;
+}
 footer{
  background-color:#020456;
  padding:80px 0;
