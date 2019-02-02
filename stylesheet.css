@@ -41,6 +41,7 @@ h1{
 }
 .footer-item a{
  color:#fff;
+ text-decoration:none;
 }
 .footer-item{
  width:160px;
