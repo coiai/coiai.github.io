@@ -9,6 +9,7 @@
 }
 .gnav-menu{
  display:flex;
+ list-style:none;
 }
 .gnav-item{
  margin-left:20px;
