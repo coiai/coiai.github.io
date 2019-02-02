@@ -38,6 +38,8 @@ h1{
 }
 .footer-item a{
  color:#fff;
+}
+.footer-item{
  width:160px;
  margin-right:20px;
  margin-left:auto;
