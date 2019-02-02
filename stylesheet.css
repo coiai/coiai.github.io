@@ -11,8 +11,8 @@
  display:flex;
  list-style:none;
 }
-.gnav-item{/*
- margin-left:20px;*/
+.gnav-item{
+ margin-left:20px;
 }
 .gnav-item a{
  color:#020456;
