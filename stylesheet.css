@@ -7,8 +7,8 @@
  top:0;
  width: 100%;
 }
-.gnav-menu{/*
- display:flex;*/
+.gnav-menu{
+ display:flex;
 }
 .gnav-item{
  margin-left:20px;
