@@ -9,7 +9,10 @@
 .gnav-menu{
  display:flex;
 }
-.gnav-itme{
+.gnav-item{
+ margin-left:20px;
+}
+.gnav-itme a{
  text-decoration:none;
 }
 .site-logo img{
