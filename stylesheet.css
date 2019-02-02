@@ -1,13 +1,14 @@
 .site-header{
  background: #fff;
  padding: 40px 20px;
+ display:flex;
  justify-content: space-between;
  position: fixed;
  top:0;
  width: 100%;
 }
-.gnav-menu{
- display:flex;
+.gnav-menu{/*
+ display:flex;*/
 }
 .gnav-item{
  margin-left:20px;
