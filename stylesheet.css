@@ -1,6 +1,6 @@
 .site-header{
  background: #fff;
- padding: 40px 20px;
+ padding: 20px 20px;
  display:flex;
  justify-content: space-around;
  position: fixed;
@@ -11,8 +11,8 @@
  display:flex;
  list-style:none;
 }
-.gnav-item{
- margin-left:20px;
+.gnav-item{/*
+ margin-left:20px;*/
 }
 .gnav-item a{
  color:#020456;
