@@ -71,7 +71,13 @@ header ul {
 header li img {
     width: 100px;
     height: 40px;
+    transition: 0.2s;
 }
+
+header li img:hover {
+    background-color: white;
+}
+
 
 .gnav-item a {
     padding: 16px 10px;
@@ -101,6 +107,7 @@ body {
 
 article {
     margin: 100px auto;
+    height: 700px;
 }
 
 h1 {
@@ -132,6 +139,4 @@ footer {
     background-color: #020456;
     padding: 80px 0;
     width: 100%;
-    position: absolute;
-    bottom: 0;
 }
