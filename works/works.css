@@ -1,53 +1,137 @@
-.site-header{
- background: #fff;
- padding: 20px 20px;
- display:flex;
- justify-content: space-around;
- position: fixed;
- top:0;
- width: 100vw;
+@charset "UTF-8";
+
+html {
+    overflow: scroll;
 }
-.gnav-menu{
- display:flex;
- list-style:none;
+
+/* -----------------リセットCSS------------------------- */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+    margin: 0px;
+    padding: 0px;
 }
-.gnav-item{
- margin-left:20px;
+
+body {
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+    min-width: 100%;
+    -webkit-text-size-adjust: 100%;
 }
-.gnav-item a{
- color:#020456;
- text-decoration:none;
+
+li {
+    list-style: none;
 }
-.site-logo img{
- height: 40px;
- width: auto;
+
+a {
+    outline: none;
+    color: inherit;
+    text-decoration: none;
 }
-body{
- color:#020456;
+
+img {
+    border: 0px;
+    vertical-align: bottom;
 }
-h1{
- text-align:center;
+
+/* ----------------------------------------------- */
+
+body {
+    font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", "Meiryo", "HGPｺﾞｼｯｸM", "Osaka", "ＭＳ Ｐゴシック", sans-serif, Century Gothic, Arial;
 }
-.contents{
- /*this background is prepared for a test
- background: #ffff00;*/
- line-height: 1.6;
- margin: 100px auto;
- padding-top:100px;
- width: 600px;
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: #eeeaec;
+    text-align: center;
+    position: fixed;
+    top: 0;
 }
-.footer-item a{
- color:#fff;
- text-decoration:none;
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.footer-item{
- width:160px;
- margin-right:20px;
- margin-left:auto;
+
+header li img {
+    width: 100px;
+    height: 40px;
 }
-footer{
- background-color:#020456;
- padding:80px 0;
- postion:absolute;
- bottom:0;
+
+.gnav-item a {
+    padding: 16px 10px;
+    color: #020456;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.gnav-item a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.site-logo img {
+    height: 40px;
+    width: auto;
+}
+
+.home-img img {
+    padding-top: 100px;
+    width: 100vw;
+    display: block;
+}
+
+body {
+    color: #020456;
+}
+
+article {
+    margin: 100px auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.contents {
+    line-height: 1.6;
+    text-align: center;
+    margin: 40px 20%;
+}
+
+.contents a {
+    color: fuchsia;
+}
+
+.footer-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-item {
+    width: 160px;
+    margin: 10px 20px 10px auto;
+}
+
+footer {
+    background-color: #020456;
+    padding: 80px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }

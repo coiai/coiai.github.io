@@ -89,19 +89,16 @@ header li img {
     width: auto;
 }
 
-.home-img img {
+.home-img {
     padding-top: 100px;
     width: 100vw;
-    display: block;
+    max-width: 1000px;
 }
 
 body {
     color: #020456;
 }
 
-article {
-    margin: 100px auto;
-}
 
 h1 {
     text-align: center;
@@ -110,12 +107,8 @@ h1 {
 
 .contents {
     line-height: 1.6;
-    text-align: center;
+    text-align: left;
     margin: 40px 20%;
-}
-
-.contents a {
-    color: fuchsia;
 }
 
 .footer-item a {
@@ -131,7 +124,6 @@ h1 {
 footer {
     background-color: #020456;
     padding: 80px 0;
-    width: 100%;
-    position: absolute;
+    postion: absolute;
     bottom: 0;
 }
